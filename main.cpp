@@ -23,6 +23,7 @@ int main()
         count++;   
     } 
 	while (!CheckNum(secretNumber, userNumber) && userNumber != 0);
+    cout << "Число попыток: " << count << endl;
 }
  
 bool CheckNum(int secretNumber, int userNumber)
