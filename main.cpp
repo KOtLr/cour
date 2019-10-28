@@ -1,4 +1,4 @@
-#include<iostream>
+ #include<iostream>
 #include<time.h>
 #include<stdlib.h>
 
@@ -65,7 +65,8 @@ bool CheckNum(int secretNumber, int userNumber)
     if (user1000 == secret1000)
         absolutNumbers++;
  
-    cout << "Количество верно угаданных чисел: " << rightNumbers << endl;
+    cout << "Количество верно угаданных чисел: " << rightNumbers << endl <<
+ "Количество чисел, которые находятся на своих местах: " << absolutNumbers << endl;
     return false;
 }
 
