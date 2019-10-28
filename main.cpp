@@ -71,3 +71,13 @@ bool CheckNum(int secretNumber, int userNumber)
     return false;
 }
 
+bool validNumber(int number)
+{
+    if (number < 0 || (number > 0 && number < 1000) || number > 9999)
+    {
+        cout << "В числе НЕ 4 знака" << endl;
+        return false;
+    }
+    return true;
+}
+
